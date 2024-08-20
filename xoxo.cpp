@@ -32,56 +32,56 @@ void play() {
         
     }
     else if (choice == 2) {
-        if (place1 == 'o' || place1 == 'x'){
+        if (place2 == 'o' || place2 == 'x'){
             cout << "Placed where someone already is, ending application"; exit(0);
         } else {
             place2 = player;
         }
     }
     else if (choice == 3) {
-        if (place1 == 'o' || place1 == 'x'){
+        if (place3 == 'o' || place3 == 'x'){
             cout << "Placed where someone already is, ending application"; exit(0);
         } else {
             place3 = player;
         }
     }
     else if (choice == 11) {
-        if (place1 == 'o' || place1 == 'x'){
+        if (place11 == 'o' || place11 == 'x'){
             cout << "Placed where someone already is, ending application"; exit(0);
         } else {
             place11 = player;
         }
     }
     else if (choice == 12) {
-        if (place1 == 'o' || place1 == 'x'){
+        if (place12 == 'o' || place12 == 'x'){
             cout << "Placed where someone already is, ending application"; exit(0);
         } else {
             place12 = player;
         }
     }
     else if (choice == 13) {
-        if (place1 == 'o' || place1 == 'x'){
+        if (place13 == 'o' || place13 == 'x'){
             cout << "Placed where someone already is, ending application"; exit(0);
         } else {
             place13 = player;
         }
     }
     else if (choice == 31) {
-        if (place1 == 'o' || place1 == 'x'){
+        if (place31 == 'o' || place31 == 'x'){
             cout << "Placed where someone already is, ending application"; exit(0);
         } else {
             place31 = player;
         }
     }
     else if (choice == 32) {
-        if (place1 == 'o' || place1 == 'x'){
+        if (place32 == 'o' || place32 == 'x'){
             cout << "Placed where someone already is, ending application"; exit(0);
         } else {
             place32 = player;
         }
     }
     else if (choice == 33) {
-        if (place1 == 'o' || place1 == 'x'){
+        if (place33 == 'o' || place33 == 'x'){
             cout << "Placed where someone already is, ending application"; exit(0);
         } else {
             place33 = player;
