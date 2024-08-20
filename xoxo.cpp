@@ -112,14 +112,14 @@ int checkwinner() {
         (place3 == 'x' && place13 == 'x' && place33 == 'x') ||
         (place31 == 'x' && place32 == 'x' && place33 == 'x') ||
         (place1 == 'x' && place12 == 'x' && place33 == 'x') ||
-        (place3 == 'x' && place12 == 'x' && place31 == 'x' || place31 == 'x' & place32 == 'x' & place33 == 'x' || place11 == 'x' && place12 == 'x' & place13 == 'x')) {
+        (place3 == 'x' && place12 == 'x' && place31 == 'x' || place31 == 'x' & place32 == 'x' & place33 == 'x' || place11 == 'x' && place12 == 'x' & place13 == 'x' || place2 == 'x' & place12 == 'x' & place32 == 'x')) {
         return 1;
     } else if ((place1 == 'o' && place2 == 'o' && place3 == 'o') ||
                (place1 == 'o' && place11 == 'o' && place31 == 'o') ||
                (place3 == 'o' && place13 == 'o' && place33 == 'o') ||
                (place31 == 'o' && place32 == 'o' && place33 == 'o') ||
                (place1 == 'o' && place12 == 'o' && place33 == 'o') ||
-               (place3 == 'o' && place12 == 'o' && place31 == 'o' || place31 == 'o' & place32 == 'o' & place33 == 'o' || place11 == 'o' && place12 == 'o' & place13 == 'o')) {
+               (place3 == 'o' && place12 == 'o' && place31 == 'o' || place31 == 'o' & place32 == 'o' & place33 == 'o' || place11 == 'o' && place12 == 'o' & place13 == 'o' || place2 == 'o' & place12 == 'o' & place32 == 'o')) {
         return 2;
     }
     return 0;
