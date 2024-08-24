@@ -9,17 +9,20 @@ int maxNumber;
 int selectedNumber;
 int guessedNumber;
 bool notAnswered = true;
+int trys = 0;
 
 int game() {
+    trys = 1;
     while (notAnswered) {
         cout << "\n\n\nGuess the number: "; cin >> guessedNumber;
         if (guessedNumber == selectedNumber) {
             notAnswered = false;
         } else {
             cout << "Incorrect, try again!";
+            trys++;
         }
     }
-    cout << "Correct! Game ended"; return 0;
+    cout << "Correct! Game ended. Took " << trys << " tries!"; return 0;
     
 }
 
