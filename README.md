@@ -1,3 +1,7 @@
+# I got an error?!?!?!?!?
+all of theese projects i tested on https://www.programiz.com/cpp-programming/online-compiler/ . it might not work on your compiler. dm me on discord: ssdfasdasd511
+
+
 # Simple C++ Code
 Examples of simple C++ code
 
